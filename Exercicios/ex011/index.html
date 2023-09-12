@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 11</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" sizes="">
+        <source media="(max-width: 1050px )" srcset="imagens/foto-m.png" sizes="">
+        <img src="imagens/foto-g.png" alt="imagem grande">
+        
+    </picture>
+    <h2>Adicionando audio..</h2>
+    <p>Abaixo vamos <abbr title="Utilizando a tag 'audio' podendo incluir parâmetro 'autoplay', 'controls' ">adicionar audios</abbr> em nosso site.</p>
+    <p><strong>OBS: Também podemos adicionar somente com '<abbr title="Preload auto (ruim, pois termina de carregar o site somente depois de carregar todo audio. Metadata é uma das melhores opção, pois puxa a duração do arquivo, etc..)">audio</abbr>' excluindo o scr e adicionando manualmente uma das <abbr title="MP3 - audio/mpeg, ogg - ogg, wav - wave (nunca utilizar por ser pesado).">3 midias de audio compatíveis</abbr>.</strong> </p>
+
+    <!--<audio preload="metadata">
+        <source src="Tea Time - Ofshane.mp3" type="audio/mpeg">
+        <p>Seu navegador não consegue reproduzir audio!</p>
+    </audio>-->
+    <audio src="Tea Time - Ofshane.mp3" preload="none" controls></audio>
+    <video src=""></video>
+</body>
+</html>

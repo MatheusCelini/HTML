@@ -1,0 +1,47 @@
+body{background-color: rgb(138, 138, 138);
+    margin: 0px;
+    }
+header{background-color: aliceblue;
+font-family: sans-serif;
+font-weight: bolder;
+padding: 10px;
+margin: 5px;
+}
+header>h1{font-weight: bold;
+text-align: center;
+font-size: xx-large;}
+nav{background-color: rgb(138, 138, 138);
+padding: 5px;
+}
+nav>a{text-decoration: none;
+margin: 10px;
+padding: 2px;
+color: aliceblue;
+}
+nav>a:hover{
+    text-decoration: underline;
+    color: antiquewhite;
+    
+}
+main{background-color: aliceblue;
+padding: 10px;
+margin: 5px;}
+main>section{text-align: center;
+font-weight: bold;}
+article{background-color: rgb(173, 173, 173);
+padding: 5px;
+}
+article>h2{font-family: sans-serif;}
+article>p{text-align: justify;}
+aside{background-color:rgb(138, 138, 138);
+margin: 0px;}
+
+footer{background-color: black; color: aliceblue;
+text-align: center;
+padding:5px;
+margin: 0px;
+}
+footer>p{margin: 0px;
+
+}
+
