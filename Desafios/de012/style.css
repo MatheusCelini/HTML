@@ -41,7 +41,7 @@
     
     .fimg1{padding-left: 30px;
         padding-top: 10vh;
-        padding-bottom: 50vh;
+        padding-bottom: 10vh;
         background-image: url(imagens/background001.jpg);
         background-size: cover;
         background-position: right;
@@ -61,7 +61,7 @@
     
     .fimg2{padding-left: 30px;
         padding-top: 10vh;
-        padding-bottom: 50vh;
+        padding-bottom: 10vh;
      background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-position: right center;
